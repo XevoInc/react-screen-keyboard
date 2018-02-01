@@ -3,6 +3,7 @@
   "version": "1.4.1",
   "description": "React sreen keyboard",
   "main": "Keyboard.js",
+  "types": "Keyboard.d.ts",
   "scripts": {
     "dist": "NODE_ENV=production webpack -p",
     "build": "babel ./src -d ./lib --source-maps",
